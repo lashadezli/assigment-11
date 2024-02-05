@@ -1,0 +1,41 @@
+.Box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+    h1,p
+    {
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+        color: white;
+    }
+    h1
+    {
+        font-size: 2.9em;
+        line-height: 1.5em;
+        font-weight: 700;
+    }
+    p  
+     {
+        font-size: 1.4em;
+        line-height: 1.5em;
+     }
+     button
+     {
+        font-family: "Raleway", sans-serif;
+        margin-top: 20px;
+        padding: 15px 90px;
+        font-size: 1.2em;
+        font-weight: 700;
+        background-image: linear-gradient(90deg, #65e2d9 2%, #339ecc 100%);
+        color: white;
+        border-radius: 50px;
+        transition: all 0.2s ease-in-out;
+        outline: none;
+        border: none;
+        cursor: pointer;
+     }
+}

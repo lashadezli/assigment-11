@@ -1,0 +1,65 @@
+
+.Main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+
+    
+    img
+    {
+        height:45px ;
+        width:55px ;
+    }
+    .boxes
+    {
+        display: flex;
+        gap: 50px;
+
+        
+        .Box
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 8px;
+            padding: 30px;
+            background-color: hsl(219, 30%, 18%);
+            
+            p
+            {
+                color: white;
+                opacity: 0.8;
+                background-color: hsl(219, 30%, 18%);
+            }
+            .customer{
+                display: flex;
+                gap: 10px;
+                background-color: hsl(219, 30%, 18%);
+                
+                .customers 
+                {
+                    font-family: "Raleway", sans-serif;
+                    font-size: 0.78em;
+                    background-color: hsl(219, 30%, 18%);
+                    font-weight: 700;
+                }
+                .seo
+                {
+                    font-size: 0.6em;
+                    opacity: 0.5;
+                }
+                img 
+                {
+                    width: 24px;
+                    height: 24px;
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 50px
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.Boxes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    row-gap: 5.6rem;
+    margin-top: 100px;
+
+   .boxes1,.boxes2
+   {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: white;
+    p
+    {
+        margin-top: 10px;
+        max-width: 300px;
+        margin-left: 230px;
+        margin-bottom: 50px;
+    }
+    .bg1,.bg2
+    {
+       text-align: center;
+    }
+   }
+}
